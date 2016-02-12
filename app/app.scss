@@ -1,0 +1,19 @@
+@import 'jspm:bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../overrides/variables';
+@import '../overrides/mixins';
+
+//Defaults are set only if we don't set them in the variables.scss
+$primary     : green !default;
+$primary-alt : black !default;
+$secondary   : pink !default;
+
+h1{
+  color:$primary;//should be blue
+  @include bp-small {
+    color:$primary-alt;
+  }
+}
+
+h2{
+  color:$secondary; // should be pink
+}
