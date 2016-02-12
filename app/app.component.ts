@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
 import {TodoComponent} from './todo/todo.component.ts';
 
-import './app.scss!';
+import styles from './app.css!text';
 
 @Component({
   selector: 'app',
@@ -15,7 +15,7 @@ import './app.scss!';
   <todo></todo>
   `,
   directives:[TodoComponent],
-  styles:[import './app.scss!']
+  styles:[styles]
 })
 
 export class AppComponent {

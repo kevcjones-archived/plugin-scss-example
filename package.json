@@ -1,0 +1,40 @@
+{
+  "name": "turbo-potatoe",
+  "version": "1.0.0",
+  "description": "A quick spud learning project",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevCJones/turbo-potato.git"
+  },
+  "keywords": [
+    "angular2",
+    "typescript",
+    "gulp",
+    "jspm",
+    "systemjs"
+  ],
+  "author": "KevCJones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevCJones/turbo-potato/issues"
+  },
+  "homepage": "https://github.com/KevCJones/turbo-potato#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "require-dir": "^0.3.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "text": "github:systemjs/plugin-text@^0.0.4"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}

@@ -1,5 +1,8 @@
 import {Component} from 'angular2/core';
 
+import styles from './todo.css!text';
+
+
 @Component({
   selector: 'todo',
   template: `
@@ -8,7 +11,8 @@ import {Component} from 'angular2/core';
     <strong>Warning!</strong> Better check yourself, you're not looking too good.
   </div>
   `,
-  styleUrls: ['./app/todo/todo.scss'],
+  styles:[styles]
+  // styleUrls: ['./app/todo/todo.css']
 })
 export class TodoComponent {
     public message = 'Sample TODO Message Here';

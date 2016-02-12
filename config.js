@@ -21,6 +21,7 @@ System.config({
     "bootstrap-sass": "github:twbs/bootstrap-sass@3.3.6",
     "jquery": "npm:jquery@2.2.0",
     "scss": "github:mobilexag/plugin-sass@0.2.1",
+    "text": "github:systemjs/plugin-text@0.0.4",
     "typescript": "npm:typescript@1.7.5",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
