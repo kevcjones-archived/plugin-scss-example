@@ -1,7 +1,19 @@
-# turbo-potato
+# plugin-scss-example
 
-Honestly, if you're here looking for some really fast spuds... sorry.
+This is just an example project i used to test [plugin-scss](https://github.com/KevCJones/plugin-scss-example.git). Its a Angular 2 + JSPM combo.
 
-If you just want to see some random playground code mixing a few things like
-JSPM+SystemJS and Angular2[Typescript]+bootstrap-sass then... by all means have
-a poke around and maybe you'll learn something.
+## Setup 
+
+``` zsh
+npm install
+jspm install
+gulp serve
+```
+
+## Bundle
+
+The default behaviour is to load inline, it can seem a little slow i find, JSPM bundling really speeds this up
+
+```zsh
+jspm bundle lib/boot --inject
+```
