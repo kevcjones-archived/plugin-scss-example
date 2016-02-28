@@ -1,6 +1,6 @@
 import {Component} from 'angular2/core';
 
-import styles from './todo.css!text';
+import styles from './todo.scss!';
 
 
 @Component({

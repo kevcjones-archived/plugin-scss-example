@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA;EACE,YAAY;CACb;;AAED;EACE;IACE,aAAa;GACd;CACF;;AAED;EACE,YAAY;CACb","file":"app/app.css","sourcesContent":["h1 {\n  color: blue;\n}\n\n@media only screen and (max-width: 30em) {\n  h1 {\n    color: black;\n  }\n}\n\nh2 {\n  color: pink;\n}\n"],"sourceRoot":"/source/"}

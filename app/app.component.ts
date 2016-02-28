@@ -1,7 +1,8 @@
 import {Component} from 'angular2/core';
 import {TodoComponent} from './todo/todo.component.ts';
 
-import styles from './app.css!text';
+import styles from './app.scss!';
+
 
 @Component({
   selector: 'app',
