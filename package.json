@@ -25,6 +25,7 @@
   "homepage": "https://github.com/KevCJones/turbo-potato#readme",
   "devDependencies": {
     "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
@@ -32,7 +33,9 @@
   },
   "jspm": {
     "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.9",
       "bootstrap-sass": "github:twbs/bootstrap-sass@^3.3.6",
+      "jquery": "npm:jquery@^2.2.1",
       "scss": "github:KevCJones/plugin-scss@^0.2.5",
       "text": "github:systemjs/plugin-text@^0.0.4"
     },
